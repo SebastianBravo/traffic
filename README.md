@@ -4,14 +4,14 @@ As a first attempt I tried using a Single convolution layer with 30 filters with
 
 ### *Some attempts done*:
 
-**Attempt:** 30 3x3 filters, max pooling 2x2, 2 hidden layers 128 units, 0.2 droput
+**Attempt:** 30 3x3 filters, max pooling 2x2, 2 hidden layers 128 units, 0.2 droput  
 	loss: 0.9778 - accuracy: 0.5238
 
-**Attempt:** 60 3x3 filters, max pooling 2x2, 1 hidden layer 326 units, 1 hidden layer 128 units, 0.3 droput
+**Attempt:** 60 3x3 filters, max pooling 2x2, 1 hidden layer 326 units, 1 hidden layer 128 units, 0.3 droput  
 	loss: 0.3162 - accuracy: 0.9345
 
-**Attempt:** 2 layers of 60 3x3 filters and max pooling 2x2, 2 hidden layers 128 units, 0.3 droput
+**Attempt:** 2 layers of 60 3x3 filters and max pooling 2x2, 2 hidden layers 128 units, 0.3 droput  
 	loss: 0.2833 - accuracy: 0.9260
 
-**Attempt:** 2 layers of 60 3x3 filters and max pooling 2x2, 1 hidden layer 128 units, 1 hidden layer 64 units, 0.3 dropout
+**Attempt:** 2 layers of 60 3x3 filters and max pooling 2x2, 1 hidden layer 128 units, 1 hidden layer 64 units, 0.3 dropout  
 	loss: 0.1536 - accuracy: 0.9642
